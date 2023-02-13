@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "qrcode-vue3": "^1.4.17",
+    "vue-qrious": "^3.1.0"
+  }
+}

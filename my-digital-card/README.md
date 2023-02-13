@@ -15,5 +15,5 @@
 
 #### First Option:
 
-![front](./assert/front-1.png)
-![back](./assert/back-1.png)
+![front](../assert/front-1.png)
+![back](../assert/back-1.png)

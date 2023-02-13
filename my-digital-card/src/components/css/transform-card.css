@@ -1,0 +1,10 @@
+.transform-enter-active,
+.transform-leave-active {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.transform-enter-from,
+.transform-leave-to {
+    transform: rotateY(-180deg);
+}
