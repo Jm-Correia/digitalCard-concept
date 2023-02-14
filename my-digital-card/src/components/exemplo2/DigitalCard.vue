@@ -1,6 +1,6 @@
 <script lang="ts">
 import { PropType, ref } from 'vue'
-import background from '../assets/background.jpg';
+import background from '../../assets/background.jpg';
 import QRCodeVue3 from "qrcode-vue3";
 
 interface Card {
@@ -31,9 +31,10 @@ export default {
     setup() {
         const isFront = ref<Boolean>(true)
         const changeFace = () => {
-
-
             isFront.value = !isFront.value;
+        }
+        const printCard = () => {
+            window.print();
         }
 
 
@@ -41,7 +42,8 @@ export default {
             isFront,
             changeFace,
             background,
-            QRCodeVue3
+            QRCodeVue3,
+            printCard
         }
     }
 }
@@ -49,6 +51,7 @@ export default {
 
 <template>
 
+    <button @click="printCard"> Download your Card</button>
     <div class="digital-card-regular" @click="changeFace">
         <Transition name="spin">
             <div class="digital-card-inner-background" v-if="isFront">
@@ -110,6 +113,14 @@ export default {
     </div>
 
 </template>
+
+
+
+
+
+
+
+
 
 
 

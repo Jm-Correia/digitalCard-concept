@@ -1,7 +1,8 @@
 <script setup lang="ts">
 
 import myDigitalCard from './components/myDigitalCard.vue';
-import digitalCard from './components/DigitalCard.vue';
+import digital3 from './components/examplo3/DigitalCard-3.vue';
+
 import logo from './assets/logo.png';
 const info = {
   hcn: "<p>4312</p> <p>122</p> <p>331</p>",
@@ -17,16 +18,14 @@ const info = {
 
 <template>
 
-  <h1>Example 1</h1>
+  <!-- <h1>Example 1</h1>
   <div class="container">
     <myDigitalCard />
-  </div>
+  </div> -->
   <hr />
   <h1>Example 2</h1>
   <div class="container">
-    <digitalCard :info="info" :logo="logo">
-
-    </digitalCard>
+    <digital3 />
   </div>
 
 
