@@ -192,12 +192,14 @@ const print = () => {
             </div>
         </div>
         <div class="button">
-            <button @click="print()">PRINT HERE</button>
-            <button @click="clickBack()">Spin the Card</button>
-            <button @click="changeDiretional">Change Dire</button>
+            <button @click="print()">Print</button>
+            <button @click="clickBack()">Spin</button>
+            <button @click="changeDiretional">Rotate</button>
         </div>
     </div>
 </template>
+
+
 
 
 
