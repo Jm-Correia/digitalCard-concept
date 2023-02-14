@@ -2,13 +2,13 @@
  #### Mandatory
     - [X] Component in VUE 3
     - [X] Digital Copy
-    - [] Change between front and back with one click.
-    - [] Generate QRCODE
+    - [X] Change between front and back with one click.
+    - [X] Generate QRCODE
     - [] A11y: easier reading.
 
  #### Desirable
-    - [] ready to Print: PDF or Image
-    - [] Change between landscape or Portrait
+    - [X] ready to Print: PDF or Image
+    - [X] Change between landscape or Portrait
     -
 
  ### Designs:
